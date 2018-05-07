@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app: nexus3
+  name: nexus3
+spec:
+  host: ""
+  port:
+    targetPort: 8081-tcp
+  to:
+    kind: ""
+    name: nexus3
+    weight: null
+status:
+  ingress: []
